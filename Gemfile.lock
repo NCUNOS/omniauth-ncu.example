@@ -1,11 +1,3 @@
-GIT
-  remote: git://github.com/NCUNOS/omniauth-ncu.git
-  revision: 90c37e0e2d17814d886e666578f2e30254764f05
-  specs:
-    omniauth-ncu (1.0.0)
-      omniauth (~> 1.0)
-      omniauth-oauth2 (>= 1.1.1, < 2.0)
-
 GEM
   remote: http://rubygems.org/
   specs:
@@ -25,6 +17,9 @@ GEM
     omniauth (1.2.2)
       hashie (>= 1.2, < 4)
       rack (~> 1.0)
+    omniauth-ncu (1.0.0)
+      omniauth (~> 1.0)
+      omniauth-oauth2 (>= 1.1.1, < 2.0)
     omniauth-oauth2 (1.3.1)
       oauth2 (~> 1.0)
       omniauth (~> 1.2)
@@ -41,5 +36,5 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  omniauth-ncu!
+  omniauth-ncu
   sinatra
